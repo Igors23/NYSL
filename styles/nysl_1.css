@@ -1,0 +1,51 @@
+.banner {
+    background: url(./assets/design1_image1.jpg);
+    height: 380px;
+    margin-top: auto background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+}
+
+
+.events {
+    background-color: black;
+    color: greenyellow;
+    width: 150px;
+    float: right;
+    margin-right: 600px;
+
+}
+
+#logo {
+    width: 200px;
+    left: 80%;
+    top: 52.5%;
+    position: absolute;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: greenyellow;
+}
+
+.nav {
+    display: inline-block;
+    width: 180px;
+    float: left;
+}
+
+.nav ul {
+    list-style-type: none;
+
+}
+
+.main {
+    width: 600px;
+    color: greenyellow;
+    float: right;
+    margin-right: 400px;
+}

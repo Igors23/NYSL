@@ -1,0 +1,81 @@
+.banner {
+    background: url(./assets/design1_image1.jpg);
+    height: 380px;
+    margin-top: auto background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+}
+
+
+.events {
+    background-color: black;
+    color: greenyellow;
+    width: 150px;
+    float: right;
+    margin-right: 600px;
+
+}
+
+#logo {
+    width: 200px;
+    right: 82%;
+    top: 77%;
+    position: absolute;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: greenyellow;
+}
+
+.nav ul {
+    list-style-type: none;
+
+}
+
+.main {
+    width: 600px;
+    color: greenyellow;
+    float: right;
+    margin-right: 400px;
+}
+
+.nav li {
+    
+    padding: 2px;
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+    background-color: skyblue;
+
+}
+
+.active {
+    background-color: greenyellow !important;
+    padding: 2px;
+    
+}
+
+.nav {
+    position: absolute;
+    width: 300px;
+    left: 60%;
+    top: 0%;
+}
+
+/*
+li {
+    display: inline;
+}
+*/
+
+.nav a {
+    text-decoration: none;
+    color: black
+}

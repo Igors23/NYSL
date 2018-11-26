@@ -1,0 +1,334 @@
+.banner {
+    background: url(./assets/green-football-field-background.jpg);
+    height: 380px;
+    margin-top: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: pink;
+}
+
+
+.events {
+    background-color: black;
+    color: greenyellow;
+    width: 100%;
+    position: absolute;
+    left: -1%;
+    text-align: center;
+
+}
+
+#logo {
+    width: 200px;
+    right: 43%;
+    top: 15%;
+    position: absolute;
+}
+
+
+body {
+    background-color: black;
+    color: greenyellow;
+    font-family: calibri;
+}
+
+a {
+    color: greenyellow;
+}
+
+.nav ul {
+    list-style-type: none;
+
+}
+
+.main {
+    width: 900px;
+    color: greenyellow;
+    position: absolute;
+    left: 200px;
+    margin-bottom: 50px;
+}
+
+.nav li {
+    margin: 1px;
+    padding: 7px;
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+    background-color: greenyellow;
+    border-radius: 15px 15px 15px;
+}
+
+.nav {
+    position: absolute;
+    width: 600px;
+    left: 25%;
+    top: 55%;
+}
+
+.active {
+
+    background-color: aqua !important;
+    padding: 2px;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/*--------------Game Info Head------------*/
+
+.fall {
+    position: absolute;
+    left: 320px;
+}
+
+.allgames {
+    position: absolute;
+    left: 320px;
+    top: 540px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.headn {
+    text-align: center;
+    font-size: 1em;
+}
+
+.headr {
+    text-align: center;
+}
+
+.headf {
+    text-align: center;
+}
+
+/*----------------table?---------------*/
+
+table,
+th,
+td {
+    border: 0px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 3px 35px;
+    text-align: left;
+}
+
+th {
+    text-decoration: underline;
+}
+
+.tablegameloc {
+    position: absolute;
+    left: 150px;
+    right: 150px;
+    top: 600px
+}
+
+.tablesep {
+    position: absolute;
+    width: 50%;
+    left: 290px;
+    right: 150px;
+    top: 600px;
+    padding: 3px;
+}
+
+.tableoct {
+    position: absolute;
+    width: 50%;
+    left: 300px;
+    right: 150px;
+    top: 900px;
+    padding: 3px;
+
+}
+
+.gamelochead {
+    text-decoration: none;
+}
+
+.firstdate {
+    text-align: center;
+}
+
+/*---------------------rules--------------------*/
+.rulespol {
+    list-style: none;
+    color: greenyellow;
+}
+
+
+
+.rule {
+    list-style: none;
+    text-align: justify;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-decoration: none;
+}
+
+.rule h2 {
+    color: chartreuse;
+}
+
+.rule p {
+    font-weight: normal;
+}
+
+.rule ul {
+    list-style: none;
+}
+
+.rule ol {
+    font-weight: bold;
+}
+
+.subrule {
+    font-weight: bold;
+}
+
+.rules {
+    margin-bottom: 50px;
+}
+
+/*--------------game locations------------------*/
+
+.gameloc {
+    position: absolute;
+    left: 260px;
+    top: 1400px;
+}
+
+.gamelocs {
+    position: absolute;
+    left: 20px;
+    top: 1450px;
+    list-style-type: none;
+}
+
+.gamelocadress {
+    position: absolute;
+    right: 40px;
+    top: 1450px;
+    list-style-type: none;
+}
+
+.fac {
+    position: absolute;
+    top: 2500px;
+    left: 260px;
+}
+
+.facout {
+    position: absolute;
+    top: 2500px;
+    left: 355px;
+}
+
+.addinfo {
+    position: absolute;
+    top: 2550px;
+    left: 260px;
+}
+
+.addinfoinfo {
+    position: absolute;
+    top: 2550px;
+    left: 420px;
+}
+
+.please {
+    position: absolute;
+    top: 2600px;
+    left: 260px;
+}
+
+.pleasemichael {
+    position: absolute;
+    top: 2600px;
+    left: 455px
+}
+
+.phone {
+    position: absolute;
+    top: 2650px;
+    left: 260px;
+    margin-bottom: 50px;
+}
+
+.phonen {
+    position: absolute;
+    top: 2650px;
+    left: 310px;
+}
+
+.email {
+    position: absolute;
+    top: 2650px;
+    right: 490px;
+}
+
+.emailm {
+    position: absolute;
+    top: 2650px;
+    right: 290px;
+}
+
+/*----------------Registration Form------------------*/
+
+.flex-container {
+    width: 790px;
+    margin-left: 250px;
+    margin-right: 300px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.firstinfo {
+    text-align: left;
+
+}
+
+.button {
+    position: absolute;
+    top: 1750px;
+    left: 580px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.flname input {
+    width: 29%;
+}
+
+.streetadress input {
+    width: 76.5%;
+    
+}
+
+.pargua input {
+    width: 73%;
+}
+.contact input {
+    width: 29.5%;
+}
+
+.cityzip input {
+    width: 37.5%
+}
+
+
